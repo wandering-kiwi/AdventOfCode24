@@ -1,0 +1,1 @@
+print(sum([int((lambda a: any((lambda x: (lambda y: all(1<=abs(k)<=3 for k in y) and not min(y) < 0 < max(y))([int(x[j]) - int(x[j-1]) for j in range(len(x))][1::]))(a[:l] + a[l+1:]) for l in range(len(a))))(i.split())) for i in open('input.txt', 'r')]))
