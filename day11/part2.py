@@ -1,5 +1,5 @@
 stones = dict((i, 1) for i in [line for line in open('input.txt', 'r')][0].split())
-for count in range(25):
+for count in range(75):
     print(count)
     temp_dict = {}
     for stone, reps in stones.items():

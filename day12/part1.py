@@ -1,3 +1,4 @@
+# currently wip
 plots = {n: {'area':0, 'peri':0} for n in 'OX'}
 in_lst = [line.strip() for line in open('input.txt', 'r')]
 for y, i in enumerate(in_lst):
